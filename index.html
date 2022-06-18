@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="shortout icon" href="asset/imgs/res.jpg" type="imags/ipg">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/mas.css">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg sticky-top ">
+      <div class="container">
+          <a class="navbar-brand" href="#">
+            
+            <img style="width:55px ;height:45px; padding-left: 10px; " src="asset/imgs/y12.jpg" alt="">
+          
+          </a>
+          <button class="navbar-toggler  " type="button" aria-expanded="false" data-bs-toggle="collapse"
+           data-bs-target="#mine" >
+
+           <span class="navbar-toggler-icon" ></span>
+
+          </button>
+          <div  id="mine" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 p-2 ">
+              <li class="nav-item">
+                <a class="nav-link active text-warning " href="#"><b><h5>Home</h5></b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#sre"><b>Srevice</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#sing"><b>Sing in</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#"><b>Call Us</b></a>
+              </li>
+              </ul>
+              
+              
+          </div>
+        </div>
+      </nav>
+     <br>
+    
+    
+<!-- landing -->
+    <div class="landing text-light justify-content-center  ">
+
+     <div id="sing" class="text-center  " ><h2><b>Welcome to Restaurant</b></h2>
+    
+    </div>
+    <br>
+    <div class="text-center mt-5 mb-3 " >
+     <button  class="btn btn-warning  " data-bs-toggle="modal" data-bs-target="#mod" >Sing in</button>
+    </div>
+    <!-- modal -->
+    <div id="mod" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-warning" >Sing In</h5>
+            <button class="btn-close" data-bs-dismiss="modal" ></button>
+          
+          </div>
+
+          <div class="modal-body">
+            <form class="w-5" action="" method="post">
+          
+              <input class="form-control" type="email" placeholder="Name@gmail.com" required  >
+              <br>
+              
+              <input class="form-control" type="password"  minlength="8" maxlength="16" placeholder="password" required  >
+              <br>
+              <button style="border-radius :25px;width: 75px; background-color:#ff9500;" type="submit" ><b>Submit</b></button>
+              <button style="border-radius :25px;width:75px ; background-color:#ff9500;" type="reset"  ><b>Reset</b></button>
+              <button class="btn btn-secondary"data-bs-dismiss="modal" style="border-radius:25px;" ><b>Close</b></button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+
+<br>
+      <!--row-->
+    <div class="container">
+        <div  class="row">
+            <div id="sre" class="col col-lg-4 col-md-6 col-sm-6 col-sx-6 col-12">
+              <div class="bg-dark">  <img class="card-img-top " height="230px" src="asset/imgs/p1.jpg" alt="">
+                <div class="card-title text-warning" ><h3>Pizza</h3></div>
+                <div style="height:97px ;" class="card-body text-light " ><h4 >أشهى و أطيب أنواع البيتزا متوفرة بعدة طرق</h4></div>
+                <button  class="btn btn-danger m-1" >Adding</button>
+            </div>
+        </div>
+        <!--col 2-->
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-sx-6 col-12" >
+            <div class="bg-dark">  <img class="card-img-top " height="230px" src="asset/imgs/p2.jpg" alt="">
+                <div  class="card-title text-warning " ><h3>Fast Food</h3></div>
+                <div style="height:97px ;" class="card-body text-light " ><h4 >خذ طلبك باسرع وقت و الذ مذاق </h4></div>
+                <button  class="btn btn-danger m-1" >Adding</button>
+            </div>
+
+        </div>
+        <!--col 3-->
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-sx-12 col-12" >
+          <div class="bg-dark">  <img class="card-img-top " height="230px" src="asset/imgs/p3.jpg" alt="">
+              <div class="card-title text-warning" ><h3>Salad</h3></div>
+              <div style="height:97px ;" class="card-body text-light " ><h4 >يوجد الكثير من أنواع السلطات بمختلف الأنواع</h4></div>
+              <button  class="btn btn-danger m-1" >Adding</button>
+          </div>
+        </div>
+        <!--col 4  -->
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-sx-12 col-12 mt-4" >
+          <div class="bg-dark">  <img class="card-img-top " height="230px" src="asset/imgs/p4.jpg" alt="">
+              <div class="card-title text-warning" ><h3>Juices</h3></div>
+              <div style="height:97px ;" class="card-body text-light " ><h4 >أنواع مختلفة من العصائر تجعل يومك سعيدا</h4></div>
+              <button  class="btn btn-danger m-1" >Adding</button>
+          </div>
+        </div>
+        <!-- col 5 -->
+        <div class="col col-lg-4 col-md-6 col-sm-6 col-sx-12 col-12 mt-4" >
+          <div class="bg-dark">  <img class="card-img-top " height="230px" src="asset/imgs/p5.jpg" alt="">
+              <div class="card-title text-warning" ><h3>Main Meal</h3></div>
+              <div style="height:97px ;" class="card-body text-light " ><h4 >أشهى و أطيب أنواع الوجبات</h4></div>
+              <button  class="btn btn-danger m-1  " >Adding</button>
+          </div>
+        </div>
+        
+        
+
+      
+       
+        
+        </div>
+     </div>
+     
+     
+    <div class="footer pt-s pb-5 text-white-50 text-center text-md-start mt-4 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-8">
+            <div class="info mt-5">
+              <img class="mb-4" src="asset/imgs/y12.jpg" alt="">
+              <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam adipisci quod excepturi
+                repudiandae expedita fugit consequatur rem odit, deleniti aliquam aspernatur, 
+                </p>
+                <div class="copyright">
+                  Cerated By Designer
+                  <div>&copy; 2022</div>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-4 mt-5 lh-lg">
+            <ul class="list-unstyled ">
+              <h5 class="text-light">Link</h5>
+              <li ><a style="text-decoration-line: none;" class="text-light " href="https://www.facebook.com/"target="-blanck" >
+                FaceBokk <i class="bi bi-facebook"></i></a></li>
+              <li ><a style="text-decoration-line: none;" class="text-light " href="">Twiter</a></li>
+              <li ><a style="text-decoration-line: none;" class="text-light " href="">Youtube</a></li>
+              <li ><a style="text-decoration-line: none;" class="text-light " href="">Insta</a></li>
+            </ul>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+       
+    <script src="asset/js/bootstrap.bundle.min.js" ></script>
+    <script src="/asset/js/ew.js" ></script>
+</body>
+</html>
